@@ -1,8 +1,9 @@
 import 'dart:math';
 import 'package:flutter/material.dart';
 import 'package:flutter_map/flutter_map.dart';
-import 'package:intern/lib/Airport_model.dart';
 import 'package:latlong2/latlong.dart';
+
+import '../Airport_model.dart';
 
 class AirportDetailsScreen extends StatelessWidget {
   final mapController = MapController();
